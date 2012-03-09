@@ -8,7 +8,7 @@ The documentation project, consists of 2 main parts, "Stubs" and "Documentation"
 All sample code files for the partial and macro partial editors, heavily commented, and will be available in the
 Umbraco core when you create new macros / partials. 
 
-##[Documentation](documentation/index.md)
+##[Documentation](Documentation/index.md)
 Documentation is a collection of references and step-by-step guides, as well as conceptual overviews of the architecture.
 
 ##Contributing
