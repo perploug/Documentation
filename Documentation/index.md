@@ -8,7 +8,7 @@ Getting umbraco installed, up and running and working on your machine. Doing it 
 ###[Reference](reference/index.md)
 Reference for developers who are looking for API exemples and references on syntax and parameters. Covers Hive, Umbraco.Helpers, Razor and the Fluent API
 
-###[BestPractices](BestPractices/index.md)
+###[Best Practices](BestPractices/index.md)
 Step by step guides on how to solve common challenges with Umbraco, covers a wide range of topics from building a site, team developement, to naming conventions.
 
 ###[Concepts](concepts/index.md)
