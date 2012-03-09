@@ -2,7 +2,18 @@
 Truncates a string if longer then a given length. Can optionally suffix the string with a given value. 
 
 ##Samples
-todo
+
+	@{
+		//truncate bodyText if longer 300 chars, and suffix it with "..."
+		var truncatedString = Umbraco.Truncate(DynamicModel.bodyText, 300, "...");
+	}
 
 ##Parameters
-todo
+###Value
+`string` The string to truncate
+
+###Length
+`int` The maximum length
+
+###_Suffix_
+`string` String to suffix truncated value with
