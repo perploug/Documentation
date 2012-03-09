@@ -15,4 +15,23 @@ Follow these simple steps to be up and running with WebMatrix quickly and easily
 	1. Click the Sites section in the lower left hand corner
 	1. Then click on the URL such as http://localhost:22830<br/>*Port number may be different as it is random*
 	1. The Web installer for Umbraco will now launch inside your default browser
-1. 
+	
+## Umbraco Web Installer
+This section continues from where we left off but covers the installation and configuration of Umbraco inside your web browser, when you run Umbraco for the first time.
+
+1. You will see the welcome screen, after reading through the page click **Lets get started!**
+1. On the next screen you are presented with the database options for using Umbraco with three different options. Choose the option marked **I want to use SQL CE 4** and click **Install**. This is the easiest approach and is ideal for small sites and uses a file stored on disk as the database and is the quickest option to get started with Umbraco. *If you need to migrate your database from SQL CE to SQL Server you can do at a later point.*
+1. You will be shown the progress bar of the database installation, once done click **Next**
+1. On the next screen you need to fill in the form to create a user so you can access the back office of Umbraco. Once completed click **Create user**
+1.  From this next step you can decide if you want to install a starter kit or not. A starter kit installs an example site for you and allows you to pull it apart and learn how Umbraco works.
+1. After deciding wether to skip or install a starter kit you are now finished!
+1. Now click the Set up your new website to be logged into the Umbraco back office. 
+1. Celebrate - your all done! 
+
+### Congrats you have installed an Umbraco site. That wasn't so hard was it?
+
+### Note
+*You can login into your umbraco site by entering the following into your browser - http://yoursite.com/umbraco/*
+
+
+	
