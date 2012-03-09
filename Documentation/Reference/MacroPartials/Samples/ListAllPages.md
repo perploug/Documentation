@@ -1,7 +1,7 @@
 # List All Pages (Sitemap)
 This snippet below displays all of the pages from the site root and their children (descendants) in a nested unordered list.
 
-This snippet makes use of a helper, in order for us to help do a recursive loop, to list out the child pages of a child and so on and so on and the obvious use for this is a sitemap.
+This snippet makes use of a helper, in order for us to help do a recursive loop, to list out the child pages of a child and so on and so forth. The obvious use for this is a sitemap.
 
 ##Code 
     @inherits PartialViewMacroPage
@@ -17,7 +17,7 @@ This snippet makes use of a helper, in order for us to help do a recursive loop,
     @* Ensure that the Root Node has children, where the property umbracoNaviHide is not True *@
     @if (rootNode.Children.Where("umbracoNaviHide != @0", "True").Any())
     {
-        @* Get the first page in the children, where the property umbracoNaviHide is not True *@
+        @* Get the level of the first childnode, where the property umbracoNaviHide is not True *@
         var naviLevel = rootNode.Children.Where("umbracoNaviHide != @0", "True").First().Level;
         
         @* Add in level for a CSS hook *@
