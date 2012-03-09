@@ -24,8 +24,11 @@ An Editor enables interactions in the right/main editor panel and modal dialogs 
 ###Dashboards
 A Dashboard provides a piece of functionality to enhance an application section. These usually appear as the default panel within a section.
 
+###Macros
+A Macro is a contained piece of functionality, generally used on the front-end of a website.
+
 ###Property Editors
-[TBC]
+A Property Editor offers functionality that can be used by a content editor to input data. Interaction with a Property Editor is achieved by referencing it with a [Data Type](null).
 
 ###Parameter Editors
-[TBC]
+A Parameter Editor is similar to a Property Editor in that they are used to capture input data; however the purpose of a Parameter Editor is to be used exclusively on Macros.
