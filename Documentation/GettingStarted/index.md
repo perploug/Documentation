@@ -5,10 +5,10 @@ Getting started with Umbraco is easy and there are various different ways to ins
 ##Installing
 
 ### [Installing Umbraco with WebMatrix](InstallWebMatrix.md)
-This is the simplest way to install Umbraco in a matter of a few clicks, without you having to know about webservers, host names and setting up SQL Databases.
+This is the simplest way to install Umbraco in a matter of a few clicks, without you having to know about webservers, hostnames and setting up SQL databases.
 
 ### Installing Umbraco with IIS and Web Platform Installer
-This is similar to installing Umbraco through WebMatrix however you have knowledge of IIS, SQL databases and hostnames.
+This is similar to installing Umbraco through WebMatrix, however you need knowledge of IIS, SQL databases and hostnames.
 
 ### Installing Umbraco with Visual Studio Template
 Love to work in Visual Studio and want an easy project template for you to be able to install and get started developing with Umbraco, then take this route.
