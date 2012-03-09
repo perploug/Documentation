@@ -32,3 +32,11 @@ A Property Editor offers functionality that can be used by a content editor to i
 
 ###Parameter Editors
 A Parameter Editor is similar to a Property Editor in that they are used to capture input data; however the purpose of a Parameter Editor is to be used exclusively on Macros.
+
+***
+
+##Package format
+The format used for packages follows the [NuGet](http://nuget.org) specification. For more information about the NuGet specification, please visit the [NuGet Documentation](http://docs.nuget.org) website. Further details of how to create NuGet packages for Umbraco are outlined [here](#TBC).
+
+##How are packages installed?
+When a package is uploaded, ready to be installed, it will be stored in the `\App_Data\Umbraco\LocalPackages` folder. Once installed the package contents are installed in the `\App_Plugins\Packages` folder.
