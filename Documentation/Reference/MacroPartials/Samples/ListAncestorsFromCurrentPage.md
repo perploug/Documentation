@@ -1,5 +1,5 @@
 # List Ancestors From Current Page (Breadcrumb)
-This snippet will list all the ancestor pages of the current page and more commonly known as a breadcrumb.
+This snippet will list all the ancestor pages of the current page, which is more commonly known as a breadcrumb.
 
 ##Code 
     @inherits PartialViewMacroPage
