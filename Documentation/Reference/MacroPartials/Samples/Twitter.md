@@ -1,7 +1,9 @@
 # Twitter
-This snippet below allows you to display tweets from a twitter account with some configurable options by using Macro Parameters.
+The snippet below allows you to display tweets from a Twitter account with some configurable options by using Macro Parameters.
 
-This snippet works by remotely fetching the JSON from Twitters API server and then allowing us to iterate over the JSON with Razor. Allowing us to display any information from the JSON feed. This snippet outputs the following, but you could easily customize it to your own needs.
+This snippet works by remotely fetching the JSON from Twitter's API server and then allowing us to iterate over the JSON with Razor. Allowing us to display any information from the JSON feed.
+
+The snippet outputs the following, but you could easily customize it to your own needs:
 
 + Twitter Name
 + Avatar
@@ -59,13 +61,13 @@ This snippet works by remotely fetching the JSON from Twitters API server and th
     
     @{   
         
-        @* Macro Param: Twitter Username that defaults to umbraco if empty *@
+        @* Macro Param: Twitter Username that defaults to 'umbraco' if empty *@
         var twitterUsername = String.IsNullOrEmpty(Model.MacroParameters.twitterUsername) ? "umbracoproject" : Model.MacroParameters.twitterUsername;
     
         @* Macro Param: Include Retweets? Defaults to false *@
         var includeRTs = String.IsNullOrEmpty(Model.MacroParameters.includeRTs) ? false : Model.MacroParameters.includeRTs;
     
-        @* Macro Param: Excludie Replies? Defaults to false *@
+        @* Macro Param: Exclude Replies? Defaults to false *@
         var excludeReplies = String.IsNullOrEmpty(Model.MacroParameters.excludeReplies) ? false : Model.MacroParameters.excludeReplies;
     
         @* Macro Param: Number of tweets to display. Defaults to 1 *@
@@ -81,13 +83,13 @@ This snippet works by remotely fetching the JSON from Twitters API server and th
                 
     }
     
-    @* Fetch the JSON from Twitters API *@
+    @* Fetch the JSON from Twitter's API *@
     @using (var client = new System.Net.WebClient())
     {
         @* Fetch the JSON from Twitter *@
         var response = client.DownloadString(new Uri(twitterURL));
     
-        @* Decode the JSON so we can interate over it *@
+        @* Decode the JSON so we can iterate over it *@
         var tweets = Json.Decode(response);
         
         <ul>    
@@ -98,7 +100,7 @@ This snippet works by remotely fetching the JSON from Twitters API server and th
                     <h3>@formatLinks(tweet.text, tweet.entities)</h3>
     
                     <p>
-                        @* Format Tweet Date and ouput as 24/03/12 @14:05 *@
+                        @* Format Tweet Date and output as 24/03/12 @ 14:05 *@
                         <em>@formatDate(tweet.created_at).ToString("dd/MM/yy @ HH:mm")</em>
                     </p>
     
@@ -116,7 +118,7 @@ This snippet works by remotely fetching the JSON from Twitters API server and th
                         @Html.Raw(displayMap(tweet.geo));
                     }                
     
-                    @* Dislay Image (if tweet has image attached *@
+                    @* Dislay Image (if tweet has image attached) *@
                     @if (tweet.entities.media != null)
                     {
                         <a href="@tweet.entities.media[0].media_url" target="_blank">
@@ -191,7 +193,7 @@ This snippet works by remotely fetching the JSON from Twitters API server and th
             }
     
     
-            //Get user mentions (@umbraco)
+            //Get user mentions (e.g.: @umbraco)
             var mentions = entities.user_mentions;
     
             //Check we have mentions to loop over
@@ -250,10 +252,10 @@ This snippet works by remotely fetching the JSON from Twitters API server and th
             }
     
             //For each item in the tweet entities in reverse order
-            //If we update the string in reverse order the remaining start/end indexs will still be correct
+            //If we update the string in reverse order the remaining start/end indexes will still be correct
             foreach (var item in tweetEntities.OrderByDescending(x => x.startPosition))
             {
-                //Lets update the tweet text
+                //Let's update the tweet text
                 tweet = tweet.Replace(item.oldText, item.newText);
             }
     
