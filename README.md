@@ -16,6 +16,18 @@ is a collection of references and step-by-step guides, as well as conceptual ove
 All documents are written in MarkDown, using a simple structure and stored as .md files on Github.
 These are then pulled to our.umbraco.org/documentation for easy browsing. 
 
+####Getting started with Git and GitHub
+
+ * [Setting up Git for Windows and connecting to GitHub](http://help.github.com/win-set-up-git/)
+ * [Forking a GitHub repository](http://help.github.com/fork-a-repo/)
+ * [The simple gude to GIT guide](http://rogerdudler.github.com/git-guide/)
+
+Once you're familiar with Git and GitHub, clone the repository and make your contributions.
+
+###Discussions
+
+* [Trello Board](https://trello.com/board/umbraco-v5-documentation-project/4f4f4d98dcf3dbda4b226e6f) - add concepts, ideas and tasks. Claim an task and start working on it!
+* [JabbR Chatroom](http://jabbr.net/#/rooms/umbraco) - discuss things in real-time with the Umbraco community.
 
 ##Markdown conventions
 Keep custom html to a minimum. All script and style markup are cleaned by default
@@ -65,7 +77,5 @@ are used, these must be in images folders next to the .md file referencing them 
 		* index.md
 	* index.md
 	* otherpage.md
-
-
 
 	
