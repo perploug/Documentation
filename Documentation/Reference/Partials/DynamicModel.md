@@ -1,8 +1,3 @@
----
-title: DynamicModel Reference
-description: DynamicModel Properties and collections
----
-
 #DynamicModel
 DynamicModel is the dynamic access to all the data stored in your Umbraco website. Also know as the Model of your site.
 DynamicModel represents the current page, curently being rendered, and is usually referenced on Templates, Partials or Macros

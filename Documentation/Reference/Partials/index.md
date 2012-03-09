@@ -1,8 +1,3 @@
----
-title: Partials
-description: Overview of the items related to partials
----
-
 #Partials
 A partial in Umbraco, is an insolated piece of functionality / markup, you
 wish to keep seperate from your ordinary templates.
@@ -38,25 +33,25 @@ Visual Studio and Webmatrix 2 provides helpfull intellisense duting editing
 -----
 
 #Samples
-##[Hello world](HelloWorld)
+##[Hello world](samples/HelloWorld.md)
 A simple hello world sample to get you started with umbraco partials
 
-##[Simple Navigation](Navigation)
+##[Simple Navigation](samples/Navigation.md)
 A walkthrough on how to create a simple navigation
 
-##[Gallery](Gallery)
+##[Gallery](samples/Gallery.md)
 A walkthrough on how to create a simple gallery
 
 ----
 
 #Reference
-##[RenderViewPage](RenderViewPage)
+##[RenderViewPage](RenderViewPage.md)
 The View that front-end templates inherit from, containing references to all the
 core items needed to render Umbraco data to your views
 
-##[DynamicModel](DynamicModel)
+##[DynamicModel](DynamicModel.md)
 Partials uses DynamicModel for accesing the current page being rendered, as well as for querying, sorting and getting data from the umbraco datastore (hive), and has a collectiong of methods for making this as straight-forward as possible.
 
-##[Razor](razor)
+##[Razor](../razor/index.md)
 A syntax overview of the language used in Partials.  
 

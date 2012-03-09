@@ -9,8 +9,9 @@ umbraco core when you create new macros / partials.
 ###Contributing stubs
 Todo...
 
-##Documentation 
+##[Documentation](documentation/index.md) 
 is a collection of references and step-by-step guides, as well as conceptual overviews of the architecture
+
 
 ###Contributing documentation
 All documents are written in MarkDown, using a simple structure and stored as .md files on Github.

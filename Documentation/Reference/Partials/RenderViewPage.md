@@ -1,8 +1,3 @@
----
-title: Render View Page
-description: Renderview is the view all templates inherite from and contains references to central umbraco objects for rendering data
----
-
 #RenderViewPage
 RenderViewPage is the class inherited by all Partials. It contains references to the current page, access to Hive for queries and the RequestContext. `RenderViewPage` inherits from the standard MVC class `System.Web.Mvc.WebViewPage`
 	
@@ -12,8 +7,7 @@ Use `RenderViewPage` to access the page, hive or Request context in your Partial
 	@inherits RenderViewPage
 	@using Umbraco.Cms.Web;
 	@using Umbraco.Hive.RepositoryTypes;
-	
-	
+		
 	@{
 	    //get a hive writer from Hive
 	    var hiveWriter = Hive.GetWriter<IContentStore>();
@@ -32,10 +26,10 @@ Use `RenderViewPage` to access the page, hive or Request context in your Partial
 ###RoutableRequestContext
 Encapsulates information specific to a request handled by Umbraco, including the Umbraco application context which contains services which last for the lifetime of the application, registered plugins, and the routing engine used.
 
-###[Hive](hive)
+###[Hive](../hive/index.md)
 Something to do with data, not really sure what this does... 
 
-###[Umbraco](umbraco.helpers)
+###[Umbraco](umbraco.helpers/index.md)
 A utility class for use with front-end development containing many methods for accessing common APIs in Umbraco
 
 ##Properties inherited from WebViewPage
