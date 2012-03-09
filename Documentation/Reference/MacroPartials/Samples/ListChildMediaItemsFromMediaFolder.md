@@ -30,7 +30,7 @@ This snippet below displays the child media items from a chosen media folder usi
      
     @{
      
-        @* Get the macro parameter and check it has a value otherwise set to empty hive Id *@
+        @* Get the macro parameter and check it has a value - otherwise set to empty hive Id *@
         var mediaFolderID = String.IsNullOrEmpty(Model.MacroParameters.mediaFolderID) ? HiveId.Empty.ToString() : Model.MacroParameters.mediaFolderID;
     }
      
@@ -40,7 +40,7 @@ This snippet below displays the child media items from a chosen media folder usi
          @* Get the media folder as a dynamic node *@
         var mediaFolder = Umbraco.GetDynamicContentById(mediaFolderID);
         
-        @* Check that mediaFolder has children media items *@    
+        @* Check that mediaFolder has child media items *@    
         if (mediaFolder.Children.Any())
         {
             <ul>
