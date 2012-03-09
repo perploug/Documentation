@@ -1,4 +1,4 @@
-# List Child Pages From Current Page
+# List Child Pages From a Chosen Node
 This snippet below displays the child pages from a chosen node using a content picker macro parameter.
 
 ## Macro Parameters
