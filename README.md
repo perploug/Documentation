@@ -1,4 +1,4 @@
-#The Umbraco Documentation Project
+#Umbraco 5 Documentation project
 
 **WORK IN PROGRESS**
 
@@ -71,6 +71,13 @@ If you need to link between pages, always link relatively, and include the .md e
 	or
 
 	[Umbraco.Helpers](../../Reference/Umbraco.Helpers.md)
+
+##Formatting
+For code, indent your sample with a single tab, that will render it as `<pre><code>` tags for inline code, wrap in `chars.
+
+Use # for headline ## for sub headers, ### for parameters (on code reference pages)
+
+For optional parameters wrap in _ end result: `###_optionaParamter_` 
 
 
 ###Structure
