@@ -36,7 +36,7 @@ Gets the URL for the given entity
 Renders the macro with the specified alias, passing in the specified parameters.
 
 ##[Umbraco.Truncate](Umbraco.Truncate.md)
-Truncates a string from a property on a dynamic object, like DynamicModel.BodyText
+Truncates a string if longer then a given length. Can optionally suffix the string with a given value. 
 
 
 
