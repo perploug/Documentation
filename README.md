@@ -14,7 +14,7 @@ is a collection of references and step-by-step guides, as well as conceptual ove
 
 ###Contributing documentation
 All documents are written in MarkDown, using a simple structure and stored as .md files on Github.
-These are then pulled to our.umbraco.org/documentation for easy browsing. 
+These are then pulled to [our.umbraco.org/documentation](http://our.umbraco.org/documentation) for easy browsing. 
 
 ####Getting started with Git and GitHub
 
@@ -51,7 +51,7 @@ Include either the complete url, or link using Markdown linking
 
 	or
 
-	[yahoo something](Http://yahoo.com/something)
+	[yahoo something](http://yahoo.com/something)
 
 
 ###internal links
