@@ -1,5 +1,5 @@
 # List Child Pages From a Chosen Node
-This snippet below displays the child pages from a chosen node using a content picker macro parameter.
+This snippet displays the child pages from a chosen node using a content picker macro parameter.
 
 ## Macro Parameters
 <table>
@@ -28,7 +28,7 @@ This snippet below displays the child pages from a chosen node using a content p
     @using Umbraco.Framework
     
     @{
-        @* Get the macro parameter and check it has a value otherwise set to empty hive Id *@
+        @* Get the macro parameter and check it has a value - otherwise set to empty hive Id *@
         var startNodeID = String.IsNullOrEmpty(Model.MacroParameters.startNodeID) ? HiveId.Empty.ToString() : Model.MacroParameters.startNodeID;
     }
     
@@ -38,7 +38,7 @@ This snippet below displays the child pages from a chosen node using a content p
         @* Get the start node as a dynamic node *@
         var startNode = Umbraco.GetDynamicContentById(startNodeID);
         
-        @* Check that startNode has children pages, where the property umbracoNaviHide is not True *@    
+        @* Check if the startNode has any child pages, where the property umbracoNaviHide is not True *@    
         if (startNode.Children.Where("umbracoNaviHide != @0", "True").Any())
         {
             <ul>
