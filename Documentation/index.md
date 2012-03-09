@@ -17,5 +17,5 @@ High-level overview of the concepts and architecture of Umbraco 5. Diagrams of e
 ###[Glossary](glossary/index.md)
 Umbraco terms and their meaning. 
 
-###[Links](gettingstarted/index.md)
+###[Links](links/index.md)
 Umbraco related sites, blogs and communities on the interwebs.
