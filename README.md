@@ -17,6 +17,8 @@ is a collection of references and step-by-step guides, as well as conceptual ove
 All documents are written in MarkDown, using a simple structure and stored as .md files on Github.
 These are then pulled to [our.umbraco.org/documentation](http://our.umbraco.org/documentation) for easy browsing. 
 
+[Watch a video on how to contribute](http://www.screenr.com/vb78)
+
 ####Getting started with Git and GitHub
 
  * [Setting up Git for Windows and connecting to GitHub](http://help.github.com/win-set-up-git/)
