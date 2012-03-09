@@ -1,5 +1,5 @@
 # List Child Pages From Current Page
-This snippet below displays the first level of child pages from the current page in an unordered list if it has any.
+The snippet below displays the first level of child pages from the current page (if it has any) in an unordered list.
 
 ##Code 
     @inherits PartialViewMacroPage
