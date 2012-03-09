@@ -1,7 +1,7 @@
 # List Descendant Pages from Current Page
-This snippet below displays all of the child pages and their children (descendants) in a nested unordered list.
+This snippet displays all of the child pages and their children (descendants) in a nested unordered list.
 
-This snippet makes use of a helper, in order for us to help do a recursive loop, to list out the child pages of a child and so on and so on.
+The snippet makes use of a helper, in order for us to help do a recursive loop, to list out the child pages of a child and so on and so forth.
 
 ##Code 
     @inherits PartialViewMacroPage
@@ -13,7 +13,7 @@ This snippet makes use of a helper, in order for us to help do a recursive loop,
     @* Ensure that the Current Page has children, where the property umbracoNaviHide is not True *@
     @if (DynamicModel.Children.Where("umbracoNaviHide != @0", "True").Any())
     {
-        @* Get the first page in the children, where the property umbracoNaviHide is not True *@
+        @* Get the first page of the children, where the property umbracoNaviHide is not True *@
         var naviLevel = DynamicModel.Children.Where("umbracoNaviHide != @0", "True").First().Level;
         
         @* Add in level for a CSS hook *@
@@ -41,7 +41,7 @@ This snippet makes use of a helper, in order for us to help do a recursive loop,
         @* Ensure that we have a collection of pages *@
         if (pages.Any())
         {
-            @* Get the first page in pages and get the level *@
+            @* Get the level of the first page *@
             var naviLevel = pages.First().Level;
             
             @* Add in level for a CSS hook *@
