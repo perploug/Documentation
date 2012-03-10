@@ -1,7 +1,7 @@
 #Listing Child Pages from Current Page by Content Type
-This snippet below displays the child pages filtered by the Content Type Alias from the current page.
+The snippet below displays the child pages filtered by the Content Type Alias from the current page.
 
-*The Content Type Alias is a new name for Document Type Alias*
+*The Content Type Alias is a new name for what was previously referred to as Document Type Alias*
 
 ## Macro Parameters
 <table>

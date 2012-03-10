@@ -1,5 +1,5 @@
 # List Child Pages From Site Root
-This snippet below displays the first level of child pages from the site root node in an unordered list if it has any.
+This snippet displays the first level of child pages from the site root node in an unordered list if it has any.
 
 ##Code 
     @inherits PartialViewMacroPage

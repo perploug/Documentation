@@ -27,24 +27,24 @@ For more details on the process, [watch our video on how to contribute](http://w
 The code stub examples are written in Razor and stored as .cshtml files on GitHub.
 
 ###Contributing documentation
-All documents are written in MarkDown, using a simple structure and stored as .md files on GitHub.
+All documents are written in Markdown, using a simple structure and stored as .md files on GitHub.
 These are then pulled to [our.umbraco.org/documentation](http://our.umbraco.org/documentation) for easy browsing. 
 
 ###Discussions
-If you would like to get more involved with in the discussions around the Umbraco Documentation project, please visit the following places:
+If you would like to get more involved in the discussions around the Umbraco Documentation project, please visit the following places:
 
-* [Trello Board](https://trello.com/board/umbraco-v5-documentation-project/4f4f4d98dcf3dbda4b226e6f) - add concepts, ideas and tasks. Claim an task and start working on it!
+* [Trello Board](https://trello.com/board/umbraco-v5-documentation-project/4f4f4d98dcf3dbda4b226e6f) - add concepts, ideas and tasks. Claim a task and start working on it!
 * [JabbR Chatroom](http://jabbr.net/#/rooms/umbraco) - discuss things in real-time with the Umbraco community.
 
 ***
 
 ##Markdown conventions
-Keep custom html to a minimum. All script and style mark-up are cleaned by default.
+Keep custom HTML to a minimum. All script and style mark-up are cleaned by default.
 For reference, the [Markdown syntax guide](http://daringfireball.net/projects/markdown/syntax) is available.
 
 ###Images
-Images are stored and linked relatively to .md pages, and should by convention always be in a
-images folder. So to add an image to `/documentation/reference/partials/renderviewpage.md` you link it like so:
+Images are stored and linked relatively to .md pages, and should by convention always be in an
+`images` folder. So to add an image to `/documentation/reference/partials/renderviewpage.md` you link it like so:
 
 	![My Image Alt Text](images/img.jpg)
 
@@ -73,17 +73,17 @@ If you need to link between pages, always link relatively, and include the .md e
 	[Umbraco.Helpers](../../Reference/Umbraco.Helpers.md)
 
 ##Formatting
-For code, indent your sample with a single tab, that will render it as `<pre><code>` tags for inline code, wrap in `chars.
+For code, indent your sample with a single tab, that will render it as `<pre><code>` tags for inline code, wrap in ` (backtick) chars.
 
-Use # for headline ## for sub headers, ### for parameters (on code reference pages)
+Use # for the headline, ## for sub headers and ### for parameters (on code reference pages)
 
-For optional parameters wrap in _ end result: `###_optionaParamter_` 
+For optional parameters wrap in _ (underscore) - end result: `###_optionalParameter_` 
 
 
 ###Structure
 For the documentation project, each individual topic is contained in its own folder.
-Each folder must have a index.md file which links to the individual sub-pages, if images
-are used, these must be in images folders next to the .md file referencing them relatively.
+Each folder must have an `index.md` file which links to the individual sub-pages, if images
+are used, these must be in `images` folders next to the .md file referencing them relatively.
 
 * topic
 	* images

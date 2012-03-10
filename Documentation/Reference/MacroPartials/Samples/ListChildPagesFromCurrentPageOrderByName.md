@@ -1,5 +1,5 @@
 # List Child Pages From Current Page Ordered By Name
-This snippet below displays all of the child pages ordered by the node name in ascending order. So this list will display the list in alphabetical order A to Z.
+This snippet displays all of the child pages ordered by the node name in ascending order. So this list will display the list in alphabetical order A to Z.
 
 
 ##Code 

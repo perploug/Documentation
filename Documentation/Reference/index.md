@@ -1,5 +1,5 @@
 #Reference
-This area of the documentation providers snippets and samples of the different APIs and Razor functionality. Content is devided into the areas where they are found in the UI of umbraco.
+This area of the documentation provides snippets and samples of the different APIs and Razor functionality. Content is divided into the areas where they are found in the UI of Umbraco.
 
 ##[Partials](partials/index.md)
 wip

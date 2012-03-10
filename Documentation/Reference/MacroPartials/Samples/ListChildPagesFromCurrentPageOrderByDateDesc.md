@@ -1,5 +1,5 @@
 # List Child Pages From Current Page Ordered By Date Descending
-This snippet below displays all of the child pages ordered by the created date of the node in descending order. So this list will display the newest items at the top of the list.
+This snippet displays all of the child pages ordered by the created date of the node in descending order. So this list will display the newest items at the top of the list.
 
 ##Code 
     @inherits PartialViewMacroPage
