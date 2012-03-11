@@ -3,10 +3,10 @@ Follow these simple steps to be up and running with WebMatrix quickly and easily
 
 1. Go to http://www.microsoft.com/web/webmatrix/ and download WebMatrix for Free
 1. Once installed launch WebMatrix and from the four options shown - choose the option labelled **Site From Web Gallery**
-![Web Matrix - Choose Site From Web Gallery](images/WebMatrix/webmatrix-start.png)
+![Web Matrix - Choose Site From Web Gallery](../images/WebMatrix/webmatrix-start.png)
 1. In the search box in the top right hand corner, type **Umbraco**
 1. From the results select the item marked **Umbraco CMS 5**
-![Web Matrix - Search for Umbraco CMS 5](images/WebMatrix/webmatrix-search.png)
+![Web Matrix - Search for Umbraco CMS 5](../images/WebMatrix/webmatrix-search.png)
 1. In the **Site Name** box give your site an appropriate name and click **Next**
 1. Accept the license in the next step by clicking **I Accept**<br/>
 *The list of items may be more than just Umbraco as shown in the screenshot. This is because WebMatrix uses the Web Platform installer behind the scenes to install Umbraco and will also download any other software that is required in order for the website to run.*
