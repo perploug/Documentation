@@ -13,5 +13,5 @@ This is similar to installing Umbraco through WebMatrix, however you need knowle
 ### Installing Umbraco with Visual Studio Template
 Love to work in Visual Studio and want an easy project template for you to be able to install and get started developing with Umbraco, then take this route.
 
-###Installing Umbraco manually
+###[Installing Umbraco manually](InstallManual.md)
 Want to be in absolute control, then installing manually is probably for you.
