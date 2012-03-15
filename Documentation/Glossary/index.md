@@ -28,7 +28,11 @@ Quick reference glossary for Umbraco terms.
 
 		> [TODO]
 
-	- <span id="Child Action Macro">Child Action Macro</span>
+	- <span id="ContentType">Content Type</span>
+
+		> A Content Type is a generic term for a [Document Type]([#DocumentType), [Media Type]([#MediaType) or [Member Type]([#MemberType).
+
+	- <span id="ChildActionMacro">Child Action Macro</span>
 
 		> See [Macro](#Macro).
 
@@ -39,20 +43,20 @@ Quick reference glossary for Umbraco terms.
 * <span id="D">D</span>
 	- <span id="Dashboard">Dashboard</span>
 
-		> [TODO]
+		> A Dashboard provides a piece of functionality to enhance an application section.
 
-	- <span id="Data Type">Data Type</span>
+	- <span id="DataType">Data Type</span>
 
-		> [TODO]
+		> A Data Type is a reference to a [Property Editor](#PropertyEditor) which defines a property on a [Content Type](#ContentType).
 
-	- <span id="Document Type">Document Type</span>
+	- <span id="DocumentType">Document Type</span>
 
 		> A Document Type is the data definition for your content.
 
 * <span id="E">E</span>
 	- <span id="Editor">Editor</span>
 
-		> [TODO]
+		> An Editor is a generic term for interactions performed in the right-hand panel and modal dialogs in the back-office.
 
 	- <span id="EntitySchema">EntitySchema</span>
 
@@ -64,13 +68,13 @@ Quick reference glossary for Umbraco terms.
 		> [TODO]
 
 * <span id="I">I</span>
-	- <span id="IoC Container">IoC Container</span>
+	- <span id="IoC">IoC Container</span>
 
 		> [TODO]
 
 	- <span id="IIS">IIS</span>
 
-		> [TODO]
+		> Internet Information Services (IIS) is the web-server application that [ASP.NET](#ASP.NET) (and Umbraco) runs on.
 
 * <span id="J">J</span>
 	- <span id="JavaScript">JavaScript</span>
@@ -91,7 +95,7 @@ Quick reference glossary for Umbraco terms.
 
 		> [TODO]
 		
-	- <span id="Media Type">Media Type</span>
+	- <span id="MediaType">Media Type</span>
 
 		> [TODO]
 
@@ -99,7 +103,7 @@ Quick reference glossary for Umbraco terms.
 
 		> [TODO]
 
-	- <span id="Member Type">Member Type</span>
+	- <span id="MemberType">Member Type</span>
 
 		> [TODO]
 
@@ -107,7 +111,7 @@ Quick reference glossary for Umbraco terms.
 
 		> [TODO]
 
-	- <span id="MVC (ASP.NET MVC 3)">MVC (ASP.NET MVC 3)</span>
+	- <span id="MVC">MVC (ASP.NET MVC 3)</span>
 
 		> The [ASP.NET](#ASP.NET) MVC Framework is a web application framework that implements the model-view-controller (MVC) pattern.
 
@@ -130,11 +134,11 @@ Quick reference glossary for Umbraco terms.
 
 		> A package is a collection of [plugins](#Plugins).
 
-	- <span id="Partial Macro">Partial Macro</span>
+	- <span id="PartialMacro">Partial Macro</span>
 
 		> See [Macro](#Macro).
 
-	- <span id="Partial View">Partial View</span>
+	- <span id="PartialView">Partial View</span>
 
 		> [TODO]
 
@@ -142,7 +146,7 @@ Quick reference glossary for Umbraco terms.
 
 		> A plugin is a single component of functionality that extend the back-office.
 
-	- <span id="Parameter Editor">Parameter Editor</span>
+	- <span id="ParameterEditor">Parameter Editor</span>
 
 		> [TODO]
 
@@ -150,7 +154,7 @@ Quick reference glossary for Umbraco terms.
 
 		> [TODO]
 
-	- <span id="Property Editor">Property Editor</span>
+	- <span id="PropertyEditor">Property Editor</span>
 
 		> [TODO]
 
