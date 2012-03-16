@@ -6,12 +6,12 @@ Got a snippet you think would be useful, or had to find out how to do something 
 
 [For details on how to contribute, see this readme file on the github repository.](https://github.com/umbraco/Documentation/blob/5.0.1/README.md)
 
-Please note - we're at the beginning of the big effort to write these docs, and many areas are missing at the moment. With your help and people around you, the content will grow quickly throughout March and April 2012.
+**Please note** - we're at the beginning of the big effort to write these docs, and many areas are missing at the moment. With your help and people around you, the content will grow quickly throughout March and April 2012.
 
 ###[Getting Started](Getting-Started/index.md)
 Getting Umbraco installed, up and running and working on your machine. Doing it either manually, with Visual Studio & NuGet, WebMatrix or the Web Platform Installer.
 
-###Reference coming soon <!--[Reference](Reference/index.md)-->
+###[Reference](Reference/index.md)
 Reference for developers who are looking for API examples and references on syntax and parameters. Covers Hive, Umbraco.Helpers, Razor and the Fluent API.
 
 ###Best Practices coming soon <!--[Best Practices](Best-Practices/index.md)-->
