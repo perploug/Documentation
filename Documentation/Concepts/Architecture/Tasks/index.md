@@ -95,3 +95,22 @@ In the below, the method `MyAction` refers to the injected context, and the stat
             frameworkContext.TaskManager.ExecuteInContext("my-custom-trigger", context);
         }
     }
+
+##Triggers built-in to Umbraco 5 CMS
+
+To help with discoverability, there is a static helper called `TaskTriggers` in the `Umbraco.Framework` namespace.
+
+Here is a list of those task triggers, and to what actions they typically correspond.
+
+<table border="0" style="font-size: 0.8em">
+	<tr>
+		<td>Trigger helper in code</td>
+		<td>`string` equivalent</td>
+		<td>Raised when..</td>
+	</tr>
+	<tr>
+		<td>TaskTriggers.GlobalError</td>
+		<td>global-error</td>
+		<td>When an unhandled exception is raised and caught by the global.asax error handler</td>
+	</tr>
+</table>
