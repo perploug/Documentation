@@ -10,6 +10,9 @@ This is the simplest way to install Umbraco in a matter of a few clicks, without
 ### Installing Umbraco with IIS and Web Platform Installer
 This is similar to installing Umbraco through WebMatrix, however you need knowledge of IIS, SQL databases and hostnames.
 
+### [Installing Umbraco using NuGet Packages](InstallNuGet.md)
+Love to work in Visual Studio and want and want to get a solution up and running using NuGet packages, then take this route.
+
 ### Installing Umbraco with Visual Studio Template
 Love to work in Visual Studio and want an easy project template for you to be able to install and get started developing with Umbraco, then take this route.
 
