@@ -4,7 +4,7 @@ wish to keep seperate from your ordinary templates.
 Either because you wish to reuse it, or to keep your templates clear of any programming
 logic.
 
-A partial is by default written in [Razor](razor), which is the scripting language Umbraco (and Asp.net MVC 3)
+A partial is by default written in [Razor](../razor/index.md), which is the scripting language Umbraco (and Asp.net MVC 3)
 uses for templating.
 
 ##Creating a Hello World partial
@@ -30,6 +30,19 @@ If you wish to edit the partial from an editor outside of umbraco (you can use v
 
 Visual Studio and Webmatrix 2 provides helpfull intellisense duting editing
 
+----
+
+#Reference
+##[RenderViewPage](../RenderViewPage.md)
+The View that front-end templates inherit from, containing references to all the
+core items needed to render Umbraco data to your views
+
+##[DynamicModel](../DynamicModel.md)
+Partials uses DynamicModel for accesing the current page being rendered, as well as for querying, sorting and getting data from the umbraco datastore (hive), and has a collectiong of methods for making this as straight-forward as possible.
+
+##[Razor](../razor/index.md)
+A syntax overview of the language used in Partials.  
+
 -----
 
 #Samples
@@ -42,16 +55,5 @@ A walkthrough on how to create a simple navigation
 ##[Gallery](samples/Gallery.md)
 A walkthrough on how to create a simple gallery
 
-----
 
-#Reference
-##[RenderViewPage](RenderViewPage.md)
-The View that front-end templates inherit from, containing references to all the
-core items needed to render Umbraco data to your views
-
-##[DynamicModel](DynamicModel.md)
-Partials uses DynamicModel for accesing the current page being rendered, as well as for querying, sorting and getting data from the umbraco datastore (hive), and has a collectiong of methods for making this as straight-forward as possible.
-
-##[Razor](../razor/index.md)
-A syntax overview of the language used in Partials.  
 

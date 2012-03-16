@@ -1,26 +1,32 @@
 #Templating
+Templating consists of several concepts, but all have some things in common: the razor language syntax, access to DynamicModel, and the use of the Umbraco.Helpers library. 
+
+##[Working with partials](partials/index.md)
+Partials are used for lists, navigation and other seperate chunks of functionality and markup.
 
 
-##Introduction
+##[Working with macros](MacroPartials/index.md)
+Macros expands on the concept of a parial view, and enables you to pass parameters from
+your pages to your macor partial views, making them more flexible.
 
 
-
-##Getting Started
-
-
-
-##Edit in visual studio or webmatrix
+##Working with templates
+**coming soon**, Templates can be devided into sections, inherite from other templates, and can contain partials and macros. 
 
 
 ##References
-###[Umbraco Helpers](UmbracoHelpers)
+##[DynamicModel](DynamicModel.md)
+Partials and templates uses DynamicModel for accesing the current page being rendered, as well as for querying, sorting and getting data from the umbraco datastore (hive), and has a collectiong of methods for making this as straight-forward as possible.
+
+##[Razor](razor/index.md)
+A syntax overview of the language used in Partials and templates.
+
+###[Umbraco Helpers](Umbraco.Helpers/index.md)
 A utility class for use with front-end development containing many methods for accessing common APIs in Umbraco
 
-###[Sections](Sections)
-Razor syntax for handling template inheritance and defining areas of your markup
-
-###[Html Helpers](HtmlHelpers)
-A bried overview of what is possible, no need to direct non-devs to the MVC docs
+##[RenderViewPage](RenderViewPage.md)
+The View that front-end templates inherit from, containing references to all the
+core items needed to render Umbraco data to your views
 
 ###[Client Dependency](ClientDependency)
-Should this be part of Templating? for handling css and js resources?
+Coming soon
