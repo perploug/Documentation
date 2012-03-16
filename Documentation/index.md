@@ -11,17 +11,17 @@ Please note - we're at the beginning of the big effort to write these docs, and 
 ###[Getting Started](Getting-Started/index.md)
 Getting Umbraco installed, up and running and working on your machine. Doing it either manually, with Visual Studio & NuGet, WebMatrix or the Web Platform Installer.
 
-###[Reference](Reference/index.md)
+###Reference coming soon <!--[Reference](Reference/index.md)-->
 Reference for developers who are looking for API examples and references on syntax and parameters. Covers Hive, Umbraco.Helpers, Razor and the Fluent API.
 
-###[Best Practices](Best-Practices/index.md)
+###Best Practices coming soon <!--[Best Practices](Best-Practices/index.md)-->
 Step by step guides on how to solve common challenges with Umbraco. Covers a wide range of topics from building a site, team development, to naming conventions.
 
-###[Concepts](Concepts/index.md)
+###Concepts coming soon <!--[Concepts](Concepts/index.md)-->
 High-level overview of the concepts and architecture of Umbraco 5. Diagrams of each moving part as well as the thoughts behind the major components such as Tasks, Hive, Templates, Document Types and Macros.
 
 ###[Glossary](Glossary/index.md)
 Umbraco terms and their meaning.
 
-###[Links](Links/index.md)
+###Links coming soon <!--[Links](Links/index.md)-->
 Umbraco related sites, blogs and communities on the interwebs.
