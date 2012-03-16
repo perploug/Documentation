@@ -1,8 +1,3 @@
----
-title: Umbraco.Field
-description: Fetches a field from the page currently being redered. Used primarily in templates, Umbraco.Field comes with several options for modifying the output of the field
----
-
 #Umbraco.Field
 Fetches a field from the page currently being rendered. Used primarily in templates and partials.
 

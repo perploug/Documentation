@@ -1,7 +1,5 @@
----
-title: Umbraco.Helpers overview
-description: Overview of all the @Umbraco helpers available
----
+#Umbraco.Helpers
+Library of helper methods for use in templates, partials and macros
 
 ##[Umbraco.Field](Umbraco.field.md)
 Fetches a field from the page currently being redered. Used primarily in templates
