@@ -2,6 +2,7 @@
 
 **WORK IN PROGRESS**
 
+#Reading & using the docs
 The documentation project, consists of 2 main parts, "Stubs" and "Documentation". 
 
 ##Stubs
@@ -11,7 +12,7 @@ Umbraco core when you create new macros / partials.
 ##[Documentation](Documentation/index.md)
 Documentation is a collection of references and step-by-step guides, as well as conceptual overviews of the architecture.
 
-##Contributing
+#Contributing
 To contribute to either the documentation or stubs, you can clone our repository and work on the files.
 
 ####Getting started with Git and GitHub
@@ -22,6 +23,11 @@ To contribute to either the documentation or stubs, you can clone our repository
 Once you're familiar with Git and GitHub, clone the repository and make your contributions.
 
 For more details on the process, [watch our video on how to contribute](http://www.screenr.com/vb78).
+
+##Repository organisation
+So that we can target documentation for each release of Umbraco 5, there will be a branch for each released version.
+When making corrections or edits to documentation against one revision, if those updates are relevant to another release, merge those specific changes to the other relevant branches.
+No active work on the documentation should be done on the 'master' branch.
 
 ###Contributing stubs
 The code stub examples are written in Razor and stored as .cshtml files on GitHub.
