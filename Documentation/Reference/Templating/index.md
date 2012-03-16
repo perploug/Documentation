@@ -15,16 +15,16 @@ your pages to your macor partial views, making them more flexible.
 
 
 ##References
-##[DynamicModel](DynamicModel.md)
+###[DynamicModel](DynamicModel.md)
 Partials and templates uses DynamicModel for accesing the current page being rendered, as well as for querying, sorting and getting data from the umbraco datastore (hive), and has a collectiong of methods for making this as straight-forward as possible.
 
-##[Razor](razor/index.md)
+###[Razor](razor/index.md)
 A syntax overview of the language used in Partials and templates.
 
-###[Umbraco Helpers](Umbraco.Helpers/index.md)
+###[Umbraco Helpers](UmbracoHelpers/index.md)
 A utility class for use with front-end development containing many methods for accessing common APIs in Umbraco
 
-##[RenderViewPage](RenderViewPage.md)
+###[RenderViewPage](RenderViewPage.md)
 The View that front-end templates inherit from, containing references to all the
 core items needed to render Umbraco data to your views
 

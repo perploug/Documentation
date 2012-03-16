@@ -1,11 +1,11 @@
 #Reference
-This area of the documentation provides snippets and samples of the different APIs and Razor functionality. Content is divided into the areas where they are found in the UI of Umbraco.
+This area of the documentation provides snippets and samples of the different APIs and Razor functionality. Reference content are intended for developers. For anyone new to umbraco, please look at the concepts section for a broader overview of the concepts in umbraco.
 
 ##[Templating](templating/index.md)
 Templating reference covers all the ways you control markup and content on the website you manager with Umbraco. 
 Templating covers working with Razor in partials and macros, Umbraco helper libraries and underlying models.
 
-##[Umbraco.Helpers Library](templating/Umbraco.Helpers/index.md)
+##[Umbraco.Helpers Library](templating/UmbracoHelpers/index.md)
 Overview of the Umbraco.Helpers library, primarily used for templating, but also 
 
 ##[Hive](Hive/index.md)

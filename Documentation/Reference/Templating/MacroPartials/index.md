@@ -50,20 +50,20 @@ Visual Studio and Webmatrix 2 provides helpfull intellisense duting editing
 
 ----
 
-#Reference
-##[RenderViewPage](../RenderViewPage.md)
+##Reference
+###[RenderViewPage](../RenderViewPage.md)
 The View that front-end templates inherit from, containing references to all the
 core items needed to render Umbraco data to your views
 
-##[DynamicModel](../DynamicModel.md)
+###[DynamicModel](../DynamicModel.md)
 Partials uses DynamicModel for accesing the current page being rendered, as well as for querying, sorting and getting data from the umbraco datastore (hive), and has a collectiong of methods for making this as straight-forward as possible.
 
-##[Razor](../razor/index.md)
+###[Razor](../razor/index.md)
 A syntax overview of the language used in Partials.  
 
 -----
 
-#[Samples](samples/index.md)
+##[Samples](samples/index.md)
 A big collection of macro partial samples are available, browse these
 to see how to use the different parameter types, how to render more advanced
 navigation components.
