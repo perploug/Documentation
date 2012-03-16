@@ -1,8 +1,16 @@
 #Tasks
 *Tasks in Umbraco are analogous to .NET Events, but with a little more flexibility*
-**Note:** Umbraco Tasks are not to be confused with classes of the same name from the `System.Threading.Tasks` namespace in .NET Framework 4 and above.
 
-##Introduction
+***Note:** Umbraco Tasks are not to be confused with classes of the same name from the `System.Threading.Tasks` namespace in .NET Framework 4 and above.*
+
+##Why would I use Tasks?
+
+-  If you want to run some code in response to an event (or *trigger*) in another part of the system
+-  If you would like to be notified of some content being saved, or published in order to notify an external system, or fire off an email
+-  If you would like to be notified of content changes, running your own business or workflow rules, and optionally change the content, set its revision status to something else, or cancel the action entirely.
+-  If you are building your own plugin, and want to enable others to be able to respond to your own triggers using the same system.
+
+##General overview
 In Umbraco 5, a Task is a piece of functionality that the developer wants to be run when certain conditions are met in another part of the application. These conditions are known as 'task triggers'. When another part of the application fires a task trigger, all the Tasks that are registered for that trigger are executed by an `ApplicationTaskManager`.
 
 The Umbraco 5 core collection of subsystems exposes many task triggers already, but a developer can also fire their own, so that other third-party components or the developer's own Tasks can be run in the same fashion.
