@@ -30,7 +30,7 @@ Quick reference glossary for Umbraco terms.
 
 	- <span id="ContentType">Content Type</span>
 
-		> A Content Type is a generic term for a [Document Type]([#DocumentType), [Media Type]([#MediaType) or [Member Type]([#MemberType).
+		> A Content Type is a generic term for a [Document Type](#DocumentType), [Media Type](#MediaType) or [Member Type](#MemberType).
 
 	- <span id="ChildActionMacro">Child Action Macro</span>
 
