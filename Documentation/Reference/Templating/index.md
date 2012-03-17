@@ -28,5 +28,5 @@ A utility class for use with front-end development containing many methods for a
 The View that front-end templates inherit from, containing references to all the
 core items needed to render Umbraco data to your views
 
-###[Client Dependency](ClientDependency)
+###Client Dependency
 Coming soon

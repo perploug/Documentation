@@ -8,11 +8,11 @@ Templating covers working with Razor in partials and macros, Umbraco helper libr
 ##[Umbraco.Helpers Library](templating/UmbracoHelpers/index.md)
 Overview of the Umbraco.Helpers library, primarily used for templating, but also 
 
-##[Hive](Hive/index.md)
+##Hive
 Hive is the underlying data layer of umbraco.
 
 ##[Extending Umbraco](ExtendingUmbraco/index.md)
 Reference for developers who wish to add their own dashboards, trees, editors or providers to the Umbraco backoffice.
 
-##[Fluent API](FluentAPI/index.md)
+##Fluent API
 Coming soon
