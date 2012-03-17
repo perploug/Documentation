@@ -1,7 +1,7 @@
 #Templating
 Templating consists of several concepts, but all have some things in common: the razor language syntax, access to DynamicModel, and the use of the Umbraco.Helpers library. 
 
-##[Working with partials](partials/index.md)
+##[Working with partials](Partials/index.md)
 Partials are used for lists, navigation and other seperate chunks of functionality and markup.
 
 
@@ -18,10 +18,10 @@ your pages to your macor partial views, making them more flexible.
 ###[DynamicModel](DynamicModel.md)
 Partials and templates uses DynamicModel for accesing the current page being rendered, as well as for querying, sorting and getting data from the umbraco datastore (hive), and has a collectiong of methods for making this as straight-forward as possible.
 
-###[Razor](razor/index.md)
+###[Razor](Razor/index.md)
 A syntax overview of the language used in Partials and templates.
 
-###[Umbraco Helpers](UmbracoHelpers/index.md)
+###[Umbraco Helpers](Umbraco-Helpers/index.md)
 A utility class for use with front-end development containing many methods for accessing common APIs in Umbraco
 
 ###[RenderViewPage](RenderViewPage.md)
