@@ -26,10 +26,10 @@ Use `RenderViewPage` to access the page, hive or Request context in your Partial
 ###RoutableRequestContext
 Encapsulates information specific to a request handled by Umbraco, including the Umbraco application context which contains services which last for the lifetime of the application, registered plugins, and the routing engine used.
 
-###[Hive](../hive/index.md)
+###Hive
 Something to do with data, not really sure what this does... 
 
-###[Umbraco](umbraco.helpers/index.md)
+###[Umbraco](Umbraco-Helpers/index.md)
 A utility class for use with front-end development containing many methods for accessing common APIs in Umbraco
 
 ##Properties inherited from WebViewPage
