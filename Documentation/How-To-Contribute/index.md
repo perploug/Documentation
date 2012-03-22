@@ -1,4 +1,4 @@
-#Introduction to the Documentation section
+#Contributing to Umbraco
 
 ** Work in progress **
 
