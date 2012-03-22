@@ -1,4 +1,4 @@
-#Contribute with Documentation for Umbraco 5
+#Contribute Documentation for Umbraco 5
 
 Our documentation is a team-led, community-powered project. We have a dedicated number of people who regularly work on the documentation each week in the first half of 2012, and in addition the project is open to anyone who wishes to help out. 
 

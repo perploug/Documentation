@@ -4,9 +4,9 @@
 
 The getting started guides are considered as tutorials and are therefor written as step by step guides with accompanying screenshots.
 
-sdsad
-
 A getting started guide should always start with a short and concise summary on the subject of the guide, so the reader will get an understanding of what the current document is about, who the targeted audience is and what the key takeaways are.
+
+If any specific software is required to follow along a getting started guide we consider it good practice to add a Prerequisites section to the beginning of the document.
 
 ##Writing about an Umbraco concept
 
