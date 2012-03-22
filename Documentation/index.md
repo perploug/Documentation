@@ -20,6 +20,9 @@ Step by step guides on how to solve common challenges with Umbraco. Covers a wid
 ##Concepts coming soon <!--[Concepts](Concepts/index.md)-->
 High-level overview of the concepts and architecture of Umbraco 5. Diagrams of each moving part as well as the thoughts behind the major components such as Tasks, Hive, Templates, Document Types and Macros.
 
+##[How to contribute to Umbraco](How-To-Contribute/index.md)
+Learn how you can contribute to Umbraco by submitting patches to the Core or write documentation for the documentation section on our.umbraco.org.
+
 ##[Glossary](Glossary/index.md)
 Umbraco terms and their meaning.
 
