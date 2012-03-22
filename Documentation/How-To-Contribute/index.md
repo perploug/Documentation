@@ -4,6 +4,6 @@
 
 ##How to contribute to the Core of Umbraco 5
 
-##How to contribute documentation
+##[How to contribute documentation](Contribute-Documentation.md)
 
-##Format Guide
+##[Format Guide](Format-Guide.md)
