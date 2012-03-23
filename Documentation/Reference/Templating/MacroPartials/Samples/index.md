@@ -51,3 +51,9 @@ These snippets are a bit more unique than listing pages from Umbraco and are sli
 
 ### [Twitter](Twitter.md)
 This macro allows you to display a twitter account on your website with many display options.
+
+### [Display Remote RSS Feed](DisplayRemoteRSSFeed.md)
+This macro allows you to display a remote RSS feed on your website in your HTML markup
+
+### [RSS Feed](RSSFeed.md)
+This macro allows you to generate an RSS feed from child nodes of the current page
