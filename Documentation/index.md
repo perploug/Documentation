@@ -2,9 +2,9 @@
 
 Our documentation is a team-led, community-powered project. We have a dedicated number of people who regularly work on the documentation each week in the first half of 2012, and in addition the project is open to anyone who wishes to help out. 
 
-Got a snippet you think would be useful, or had to find out how to do something the hard way and want to help others avoid the same hours of searching? Our collaboration project is hosted on [Github](https://github.com/umbraco/documentation) and open for pull requests from anyone. We will love you for it. 
+Got a snippet you think would be useful, or had to find out how to do something the hard way and want to help others avoid the same hours of searching? Our collaboration project is hosted on [Github](https://github.com/umbraco/Umbraco5Docs) and open for pull requests from anyone. We will love you for it. 
 
-[For details on how to contribute, see this readme file on the github repository.](https://github.com/umbraco/Documentation/blob/5.0.1/README.md)
+[For details on how to contribute, see this readme file on the github repository.](https://github.com/umbraco/Umbraco5Docs/blob/5.0.1/README.md)
 
 **Please note** - we're at the beginning of the big effort to write these docs, and many areas are missing at the moment. With your help and people around you, the content will grow quickly throughout March and April 2012.
 
