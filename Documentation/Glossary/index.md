@@ -187,7 +187,7 @@ Quick reference glossary for Umbraco terms.
 
 	- <span id="User">User</span>
 
-		> [TODO]
+		> A User is an account that can be used to access the Umbraco backend / admin area.
 
 * <span id="V">V</span>
 	- <span id="View">View</span>
