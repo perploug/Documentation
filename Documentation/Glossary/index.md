@@ -97,7 +97,7 @@ Quick reference glossary for Umbraco terms.
 		
 	- <span id="MediaType">Media Type</span>
 
-		> [TODO]
+		> A Media Type is basically the same as a [Document Type](#DocumentType). I.e. a model / data definition for your media nodes.
 
 	- <span id="Member">Member</span>
 
