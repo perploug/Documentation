@@ -1,5 +1,3 @@
-# Users
-
 ## What is a User?
 A User is an account that can be used to access the Umbraco backend / admin area.
 This is also the main difference between Users and Members. 
