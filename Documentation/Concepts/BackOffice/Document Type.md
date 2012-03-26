@@ -1,5 +1,3 @@
-# Document Type
-
 ## What is a Document Type?
 A Document Type is a model / data definition for your content nodes. Every content node on an Umbraco web site always maps to a backing Document Type.
 
