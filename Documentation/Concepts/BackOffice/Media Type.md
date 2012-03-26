@@ -1,5 +1,3 @@
-# Media Type
-
 ## What is a Media Type?
 A Media Type is basically the same as a [Document Type]. I.e. a model / data definition for your media nodes.
 
