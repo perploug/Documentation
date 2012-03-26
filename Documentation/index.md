@@ -17,7 +17,7 @@ Reference for developers who are looking for API examples and references on synt
 ##Best Practices coming soon <!--[Best Practices](Best-Practices/index.md)-->
 Step by step guides on how to solve common challenges with Umbraco. Covers a wide range of topics from building a site, team development, to naming conventions.
 
-##Concepts coming soon <!--[Concepts](Concepts/index.md)-->
+##[Concepts](Concepts/index.md)
 High-level overview of the concepts and architecture of Umbraco 5. Diagrams of each moving part as well as the thoughts behind the major components such as Tasks, Hive, Templates, Document Types and Macros.
 
 ##[How to contribute to Umbraco](How-To-Contribute/index.md)
