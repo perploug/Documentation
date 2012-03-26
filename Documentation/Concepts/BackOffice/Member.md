@@ -1,5 +1,3 @@
-# Member
-
 ## What is a Member?
 A Member is an account that can be used to access restricted pages on a website. They can also be used to store profile information like email, phone number, etc.
 
