@@ -28,7 +28,7 @@ Open a page, using this template in your browser, and a `<H1>`  element will be 
 ##Edit in visual studio or webmatrix
 If you wish to edit the partial from an editor outside of umbraco (you can use visual studio, webmatrix or even notepad) it will be located on the path: **/Views/Umbraco/Partial/AliasOfthePartials.cshtml**
 
-Visual Studio and Webmatrix 2 provides helpfull intellisense duting editing
+Visual Studio and Webmatrix 2 provides helpfull intellisense during editing
 
 ----
 
