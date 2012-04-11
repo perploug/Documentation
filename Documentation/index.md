@@ -29,4 +29,4 @@ Umbraco terms and their meaning.
 ##Links coming soon <!--[Links](Links/index.md)-->
 Umbraco related sites, blogs and communities on the interwebs.
 
-Making a change from laptop.. ignore changes...
+This is really really ace
