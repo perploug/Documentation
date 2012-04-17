@@ -56,11 +56,6 @@ Umbraco 5 comes with a collection of Task-triggers which you can subscribe to ou
 		<tr>
 			<td>TaskTriggers.PrePackageUninstall</td>
 			<td>PackageInstallEventArgs</td>
-			<td>Just before a package installation starts</td>
-		</tr>
-		<tr>
-			<td>TaskTriggers.PrePackageUninstall</td>
-			<td>PackageInstallEventArgs</td>
 			<td>Just after a package un-installation starts</td>
 		</tr>
 	</tbody>
