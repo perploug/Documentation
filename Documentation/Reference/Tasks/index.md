@@ -1,6 +1,8 @@
 #Tasks
 Tasks in Umbraco are analogous to .NET Events, but with a little more flexibility
 
+**WORK IN PROGRESS**
+
 ##Subscribing a task to a trigger
 Subscribing to any trigger from the Umbraco task manager, requires setting up a specific task to handle every time the trigger fires. Some triggers enables the task to cancel the pending action, this triggers are always prefixed with "pre".
 
